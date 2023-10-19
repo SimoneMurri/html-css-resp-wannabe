@@ -133,3 +133,56 @@ img {
         width: 750px;
     }
  }
+
+ @media screen and (max-width: 480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2 {
+        display: flex;
+        text-align: center;
+        padding-left: 1rem;
+    }
+
+    .container {
+        width: 680px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    section.steps.text-center div.container div.row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 950px;
+    }
+
+    section.steps.text-center div.container h2 {
+        padding-left: 3rem;
+    }
+
+    .card{
+        padding-bottom: 2rem;
+    }
+
+    section.why-us div.container div.row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 530px;
+    }
+
+    section.why-us div.container h2 {
+        width: 300px;
+    }
+
+    section.why-us div.container div.row div.col.col-left {
+        margin-left: 50px;
+        padding-bottom: 3rem;
+    }
+ }
